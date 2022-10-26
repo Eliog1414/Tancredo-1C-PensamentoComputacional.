@@ -1,5 +1,6 @@
 body{
-    background:#c5b4d1;
+    background:linear-gradient(#402555,#a795b4  );
+    margin: 0 auto;
 }
 main{
     text-align: center;
@@ -15,11 +16,32 @@ main{
     height :40%;
 }
 
-.conteudo{
-    background-color: #56676e;
+#slogan{
+    font-size: 25px;
 }
 
-.beneficios{
-    background-color: #c5b4d1;
 
+.beneficios h2 {
+text-align: center;
+
+}
+ul {
+    display: inline-block;
+    vertical-align:top;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 400px;
+}
+li{
+    padding: 6px;
+    margin-left: 20px;
+}
+
+.foto-beneficio {
+width: 30%;
+text-align: right;
+padding:10px;
+display: inline-block;
+border-radius: 25px;
+box-shadow: 2px 2px 5px #000000;
 }
